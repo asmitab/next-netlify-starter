@@ -2,7 +2,7 @@ import Head from "next/head";
 import Header from "@components/Header";
 import Footer from "@components/Footer";
 
-export default function Home() {
+export default function Page2() {
   return (
     <div className="container">
       <Head>
@@ -11,9 +11,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Page 2!" />
         <p className="description">
-          <a href="page2">Page 2</a>
+          <a href="/">Index</a>
         </p>
       </main>
 
