@@ -11,11 +11,11 @@ export default function Page2() {
       </Head>
 
       <main>
-        <Header title="Page 2!" />
+        <Header title="Page 3 yayy!" />
         <p className="description">
           <a href="/">Index</a>
           <br />
-          <a href="page3">Page 3</a>
+          <a href="page2">Page 2</a>
         </p>
       </main>
 

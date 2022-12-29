@@ -14,6 +14,8 @@ export default function Home() {
         <Header title="Welcome to my app!" />
         <p className="description">
           <a href="page2">Page 2</a>
+          <br />
+          <a href="page3">Page 3</a>
         </p>
       </main>
 
