@@ -16,6 +16,9 @@ export default function Page2() {
           <a href="/">Index</a>
           <br />
           <a href="page2">Page 2</a>
+          <br />
+          <a href="subpages/subpage1">Sub Page</a>
+          <br />
         </p>
       </main>
 
