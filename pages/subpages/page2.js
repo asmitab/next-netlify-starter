@@ -11,7 +11,7 @@ export default function SubPage() {
       </Head>
 
       <main>
-        <Header title="SubPage" />
+        <Header title="Sub Page" />
         <p className="description">
           <a href="/">Index</a>
           <br />

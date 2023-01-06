@@ -17,7 +17,7 @@ export default function Home() {
           <br />
           <a href="page3">Page 3</a>
           <br />
-          <a href="subpages/subpage1">Sub Page</a>
+          <a href="subpages/page2">Sub Page</a>
           <br />
         </p>
       </main>
