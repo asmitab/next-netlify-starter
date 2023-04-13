@@ -10,7 +10,7 @@ function Application({ Component, pageProps }) {
       identityPoolId: "us-west-2:d1a4a0f9-686d-4fa6-8375-b289b399824b",
       endpoint: "https://dataplane.rum.us-west-2.amazonaws.com",
       telemetries: [
-        ["errors", { stackTraceLength: 500 }],
+        "errors",
         "performance",
         ["http", { stackTraceLength: 500, addXRayTraceIdHeader: true }],
       ],
