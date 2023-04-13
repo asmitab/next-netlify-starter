@@ -12,7 +12,7 @@ function Application({ Component, pageProps }) {
       telemetries: [
         "errors",
         "performance",
-        ["http", { stackTraceLength: 500, addXRayTraceIdHeader: true }],
+        ["http", { addXRayTraceIdHeader: true }],
       ],
       allowCookies: true,
       enableXRay: true,
