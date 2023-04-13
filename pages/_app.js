@@ -11,7 +11,7 @@ function Application({ Component, pageProps }) {
       endpoint: "https://dataplane.rum.us-west-2.amazonaws.com",
       telemetries: ["performance", "errors", "http"],
       allowCookies: true,
-      enableXRay: false,
+      enableXRay: true,
     };
 
     const APPLICATION_ID = "d99b333b-f222-4389-a482-fd63c4e729b2";
