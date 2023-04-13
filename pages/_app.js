@@ -9,7 +9,11 @@ function Application({ Component, pageProps }) {
         "arn:aws:iam::269511801252:role/RUM-Monitor-us-west-2-269511801252-2479131311761-Unauth",
       identityPoolId: "us-west-2:d1a4a0f9-686d-4fa6-8375-b289b399824b",
       endpoint: "https://dataplane.rum.us-west-2.amazonaws.com",
-      telemetries: ["performance", "errors", "http"],
+      telemetries: [
+        ["errors", { stackTraceLength: 500 }],
+        "performance",
+        ["http", { stackTraceLength: 500, addXRayTraceIdHeader: true }],
+      ],
       allowCookies: true,
       enableXRay: true,
     };
