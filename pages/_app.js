@@ -12,10 +12,9 @@ function Application({ Component, pageProps }) {
       telemetries: [
         "errors",
         "performance",
-        ["http", { addXRayTraceIdHeader: true } ]
+        "http"
       ],
       allowCookies: true,
-      enableXRay: true,
     };
 
     const APPLICATION_ID = "d99b333b-f222-4389-a482-fd63c4e729b2";
