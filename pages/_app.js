@@ -15,6 +15,7 @@ function Application({ Component, pageProps }) {
         "http"
       ],
       allowCookies: true,
+      sessionLengthSeconds: 2
     };
 
     const APPLICATION_ID = "d99b333b-f222-4389-a482-fd63c4e729b2";
